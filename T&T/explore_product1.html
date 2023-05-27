@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+  <title>T&T</title>
+</head>
+
+<body>
+
+  <div class="navbar-1">
+    <h5 class="cop bg-dark"> BUY 2 GET 1 FREE </h5>
+            <!-- ------------------------------nav-bar--------------------------- -->
+
+ <div class="header">
+              <!-- ------------------------------left-toggle--------------------------- -->
+  <div class="hamburger">
+
+        <a class="btn btn-#212121 hamburger_icon" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+          aria-controls="offcanvasExample">
+          <img class="icon" src="images/hamburger.png">
+        </a>
+
+           <!-- ------------------------------Brand-logo--------------------------- -->
+
+        <a href="index.html" class="brand">THREAD & TREADS</a>
+            <!-- ------------------------------brand-logo-end--------------------------- -->
+
+      </div>
+            <!-- ------------------------------left-toggle-end--------------------------- -->
+
+          <!-- ------------------------------right-nav-icons--------------------------- -->
+  <div class="cons">
+           <!-- ------------------------------search-icons--------------------------- -->
+
+     <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
+          aria-controls="offcanvasBottom"><img class="icon nav-icon" src="images/search-interface-symbol.png"
+            alt=""></button>
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+          <div class="offcanvas-body p-0 h-10">
+            <div class="search">
+              <div class="input-group">
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                  aria-describedby="search-addon" />
+                <button type="button" class="btn btn-outline-dark">search</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- ------------------------------search-end--------------------------- -->
+
+         <!-- ------------------------------wishlist-icon--------------------------- -->
+
+        <a class="btn btn-#212121" data-bs-toggle="offcanvas" href="#WISHLIST" role="button"
+          aria-controls="offcanvasExample">
+          <img class="icon  nav-icon" src="images/heart.png" alt="">
+        </a>
+       
+           <!-- ------------------------------wishlist-end--------------------------- -->
+
+
+           <!-- ------------------------------cart-icon------------------------------>
+        <a class="btn-sm btn-#212121" data-bs-toggle="offcanvas" href="#cart" role="button"
+          aria-controls="offcanvasExample">
+          <img class="icon  nav-icon bag" src="images/shopping-bag.png" alt="">
+        </a>
+
+      </div>
+           <!-- ------------------------------right-nav-icons--------------------------- -->
+
+    </div>
+            <!-- ------------------------------narbar-end--------------------------- -->
+            
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title menus" id="offcanvasExampleLabel">Menu</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            <hr>
+            <a href="account.html" class="menus">
+              <h5>Login/Register</h5>
+            </a>
+            <hr>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <div class="offcanvas offcanvas-end " tabindex="-1" id="WISHLIST" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title " id="offcanvasExampleLabel">WISHLIST</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body ">
+          <div>
+
+            <div class="cart-container">
+              <img class="cart-img" src="images/white Tshirt.jpeg" alt="">
+              <div class="cart-body">
+                <button type="button" class="btn-close text-reset  cart-icon" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+                <div class="cart-text">
+                  <p class="card-text">Slim Fit Cotton Henley T-shirt</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cart-container">
+              <img class="cart-img" src="images/white Tshirt.jpeg" alt="">
+              <div class="cart-body">
+                <button type="button" class="btn-close text-reset  cart-icon" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+
+                <div class="cart-text">
+                  <p class="card-text">Slim Fit Cotton Henley T-shirt</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cart-container">
+              <img class="cart-img" src="images/taylor-dG4Eb_oC5iM-unsplash.jpg" alt="">
+              <div class="cart-body">
+                <button type="button" class="btn-close text-reset  cart-icon" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+
+                <div class="cart-text">
+                  <p class="card-text">Slim Fit Cotton Henley T-shirt</p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <a href="#" class="btn btn-secondary proceed-btn" role="button" aria-pressed="true">Proceed</a>
+              <hr>
+              <div class="about-us">
+                <h2 class="headings">ABOUT US</h2>
+                <h3 class="headings">THREADS & TREADS</h3>
+                <a href="https://www.instagram.com/threadtreads_/"> <img class="icon social"
+                    src="images/instagram (2).png"></a>
+                <a href="#"> <img class="icon social" src="images/facebook.png"></a>
+                <a href="#"> <img class="icon social" src="images/twitter.png"></a>
+                <p>©️ 2023 THREADS & TREADS
+                  | All Rights Reserved |</p>
+              </div>
+              <hr>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <div class="offcanvas offcanvas-end " tabindex="-1" id="cart" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title " id="offcanvasExampleLabel">CART</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body ">
+          <div>  
+            <div class="delivary">
+              <button type="button" class="btn  delivary-change">change</button>
+              <h4 class="delivarys">Delivary</h4>
+              <h5 class="delivary-name">Tauqeer Khan</h5>
+              <h5 class="delivary-name">9594020547</h5>
+              <p class="delivary-address">Centrio, Off Eastern Freeway,Opposite RBK International School,PL Lokhande
+                Marg, Upper Chembur, Mumbai 400043</p>
+            </div>
+          
+            <div class="cart-container">
+              <img class="cart-img" src="images/white Tshirt.jpeg" alt="">
+              <div class="cart-body">
+                <button type="button" class="btn-close text-reset  cart-icon" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+                  <div class="cart-text">
+                  <p class="card-text">Slim Fit Cotton Henley T-shirt</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cart-container">
+              <img class="cart-img" src="images/white Tshirt.jpeg" alt="">
+              <div class="cart-body">
+                <button type="button" class="btn-close text-reset  cart-icon" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+                <div class="cart-text">
+                  <p class="card-text">Slim Fit Cotton Henley T-shirt</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cart-container">
+              <img class="cart-img" src="images/white Tshirt.jpeg" alt="">
+              <div class="cart-body">
+                <button type="button" class="btn-close text-reset  cart-icon" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+                <div class="cart-text">
+                  <p class="card-text">Slim Fit Cotton Henley T-shirt</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cart-container">
+              <img class="cart-img" src="images/white Tshirt.jpeg" alt="">
+              <div class="cart-body">
+                <button type="button" class="btn-close text-reset  cart-icon" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+                   <div class="cart-text">
+                  <p class="card-text">Slim Fit Cotton Henley T-shirt</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cart-container">
+              <img class="cart-img" src="images/white Tshirt.jpeg" alt="">
+              <div class="cart-body">
+                <button type="button" class="btn-close text-reset  cart-icon" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+                <div class="cart-text">
+                  <p class="card-text">Slim Fit Cotton Henley T-shirt</p>
+                </div>
+              </div>
+            </div>
+
+            <hr>
+            <div class="Coupons">
+              <h5>Apply Coupon</h5>
+              <hr>
+              <div class="product_details">
+                <h5>PRODUCT DETAILS</h5>
+                <div class="row">
+                  <div class="col">TOTAL MRP</div>
+                  <div class="col price">799</div>
+                  <div class="w-100"></div>
+                  <div class="col">Discount on MRP</div>
+                  <div class="col price">100</div>
+                  <div class="w-100"></div>
+                  <div class="col">Coupon Discount</div>
+                  <div class="col price">100</div>
+                  <div class="w-100"></div>
+                  <div class="col">Convenience fee</div>
+                  <div class="col price">free</div>
+                  <hr>
+                  <div class="w-100"></div>
+                  <div class="col">Total </div>
+                  <div class="col price">499</div>
+                </div>
+              </div>
+              <hr>
+            </div>
+
+            <button type="button" class="btn btn-secondary proceed-btn">Proceed</button>
+
+            <div class="about-us">
+              <h2 class="headings">ABOUT US</h2>
+              <h3 class="headings">THREADS & TREADS</h3>
+              <a href="https://www.instagram.com/threadtreads_/"> <img class="icon social"
+                  src="images/instagram (2).png"></a>
+              <a href="#"> <img class="icon social" src="images/facebook.png"></a>
+              <a href="#"> <img class="icon social" src="images/twitter.png"></a>
+              <p>©️ 2023 THREADS & TREADS
+                | All Rights Reserved |</p>
+            </div>
+
+            <hr>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+  <!-- </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  </div>-->
+  </div> 
+
+              <!-- ------------------------------New-arrival--------------------------- -->
+  <div id="one-product">
+    <div class="product-container">
+      <div class="wrapper">
+        <div class="product-box">
+          <div class="all-images">
+          <div class="small-images">
+            <img src="images/exp1.jpeg" onclick="clickimg(this)" alt="">
+            <img src="images/exp2.jpeg" onclick="clickimg(this)" alt="">
+            <img src="images/exp3.jpeg" onclick="clickimg(this)" alt="">
+            <img src="images/exp4.jpeg" onclick="clickimg(this)" alt="">
+            <img src="images/exp5.jpeg" onclick="clickimg(this)" alt="">
+
+          </div>
+          <div class="main-images">
+            <div id="carouselExampleControlsNoTouching" class="carousel slide"  data-bs-touch="true" data-bs-interval="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="index.html"><img class="icon back_icon" src="images/back (1).png" alt=""></a>
+                  <img src="images/exp1.jpeg" class="pro-images" id="imagebox" alt="...">
+                  <a href=""><img class="icon heart_icon" src="images/heart.png" alt=""></a>
+
+                </div>
+                <div class="carousel-item">
+                  <a href="index.html"><img class="icon back_icon" src="images/back (1).png" alt=""></a>
+                  <img src="images/exp2.jpeg" class="pro-images" alt="...">
+                  <a href=""><img class="icon heart_icon" src="images/heart.png" alt=""></a>
+
+                </div>
+                <div class="carousel-item">
+                  <a href="index.html"><img class="icon back_icon" src="images/back (1).png" alt=""></a>
+                  <img src="images/exp3.jpeg" class="pro-images" alt="...">
+                  <a href=""><img class="icon heart_icon" src="images/heart.png" alt=""></a>
+
+                </div>
+              </div>
+              <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                <span class="carousel-control-next-icon visually-hidden " aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        </div>
+          <div class="product-text">
+            <h3>Thread & TREADS</h3>
+            <h4><span>799</span>599</h4>
+            <h3>Size</h3>
+            <div class="container text-container">
+              <div class="row size-col">
+                <div class="col-3 ">
+                  
+                  <h4 class="sizes">M</h4>
+                </div>
+                <div class="col-3 size-col">
+                
+                  <h4 class="sizes">L</h4>
+                </div>
+                <div class="col-3 size-col">
+                
+                  <h4 class="sizes">XL</h4>
+                </div>
+                <div class="col-3 size-col">
+                
+                  <h4 class="sizes">XXL</h4>
+                </div>
+              </div>
+            </div>
+            <div class="Colors">
+              <h3>Color</h3>
+            
+              <div class="red-color "></div>
+              <div class="yellow-color"></div>
+            
+            </div>
+            <button type="button" class="btn btn-white border border-dark proceed-btn wishlist-btn">Add To Wishlist</button>
+              <button type="button" class="btn btn-secondary proceed-btn">Add To Cart</button>
+            </div>
+          </div>
+       
+        </div>
+   
+    </div>
+  
+<hr>
+<!-- -------------------------------recomended----------------------- -->
+<h2 class="headings">MAY LIKE </h2>
+
+
+<div class="card-container">
+  <div class="product_card">
+    <a href="explore_product1.html">
+    <img src="images/anomaly-WWesmHEgXDs-unsplash.jpg" class="card-image">
+    <h3 class="card-title">DOWN SHOLDER</h3>
+    <p class="card-description"> Rs.<span class="line_through">1000</span>  899</p>
+  </a>
+  </div>
+  <div class="product_card">
+    <a href="">
+    <img src="images/d-shirt.jpeg" class="card-image">
+    <h3 class="card-title">DOWN SHOLDER</h3>
+    <p class="card-description">Rs.<span class="line_through">1000</span>  899</p>
+  </a>
+  </div>
+  <div class="product_card">
+    <a href="">
+    <img src="images/WhatsApp Image 2023-03-09 at 1.04.13 PM.jpeg" class="card-image">
+    <h3 class="card-title">DOWN SHOLDER</h3>
+    <p class="card-description">Rs.<span class="line_through">1000</span>  899</p>
+  </a>
+  </div>
+  <div class="product_card">
+    <a href="">
+    <img src="images/WhatsApp Image 2023-03-08 at 12.51.02 AM (1).jpeg" class="card-image">
+    <h3 class="card-title">DOWN SHOLDER</h3>
+    <p class="card-description">Rs.<span class="line_through">1000</span>  899</p>
+  </a>
+  </div>
+ 
+  <div class="product_card">
+    <a href="">
+    <img src="images/tyler-nix-Zhh3WM2ko3s-unsplash.jpg" class="card-image">
+    <h3 class="card-title">DOWN SHOLDER</h3>
+    <p class="card-description"> Rs.<span class="line_through">1000</span>  899</p>
+  </a>
+  </div>
+  <div class="product_card">
+    <a href="">
+    <img src="images/category5.jpeg" class="card-image">
+    <h3 class="card-title">DOWN SHOLDER</h3>
+    <p class="card-description">Rs.<span class="line_through">1000</span>  899</p>
+  </a>
+  </div>
+  <div class="product_card">
+    <a href="">
+    <img src="images/single_product.jpeg" class="card-image">
+    <h3 class="card-title">DOWN SHOLDER</h3>
+    <p class="card-description">Rs.<span class="line_through">1000</span>  899</p>
+  </a>
+  </div>
+  <div class="product_card">
+    <a href="">
+    <img src="images/toni-hukkanen-GeWnWHgGXls-unsplash.jpg" class="card-image">
+    <h3 class="card-title">DOWN SHOLDER</h3>
+    <p class="card-description">Rs.<span class="line_through">1000</span>  899</p>
+  </a>
+  </div>
+
+</div>    
+
+
+              <!-- ------------------------------footers--------------------------- -->
+  <div class="about-us">
+    <h2 class="headings">ABOUT US</h2>
+    <h3 class="headings">THREADS & TREADS</h3>
+    <a href="https://www.instagram.com/threadtreads_/"> <img class="icon social" src="images/instagram (2).png"></a>
+    <a href="#"> <img class="icon social" src="images/facebook.png"></a>
+    <a href="#"> <img class="icon social" src="images/twitter.png"></a>
+  </div>
+
+  <hr>
+
+  <div class="contact-us">
+    <a class="spaceINa" href="#">
+      <h5>contact-us</h5>
+    </a>
+    <a class="spaceINa" href="#">
+      <h5>FAQ</h5>
+    </a>
+    <a class="spaceINa" href="#">
+      <h5>TERMS & CONDITION</h5>
+    </a>
+  </div>
+
+  <hr>
+  
+  <div class="contact-us">
+    <a class="spaceINa" href="#">
+      <h5>PLACE RETURN / EXCHANGE REQUEST</h5>
+    </a>
+    <a class="spaceINa" href="#">
+      <h5>RETURN POLICY</h5>
+    </a>
+    <a class="spaceINa" href="#">
+      <h5>TRACK YOUR ORDERS</h5>
+    </a>
+  </div>
+
+  <hr>
+  
+  <div class="contact-us">
+    <a class="spaceINa" href="#">
+      <h5>contact-us</h5>
+    </a>
+  </div>
+
+  <hr>
+  
+  <div class="copy-rights">
+    <p>©️ 2023 THREADS & TREADS
+      | All Rights Reserved |</p>
+  </div>
+         
+  <!-- ------------------------------footers-end--------------------------- -->
+<script>
+  function clickimg(smallImg){
+    var fullImg= document.getElementById("imagebox");
+    fullImg.src=smallImg.src
+  }
+</script>
+</body>
+
+
+</html>
